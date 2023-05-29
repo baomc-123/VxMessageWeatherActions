@@ -24,7 +24,7 @@ import java.util.List;
 public class AllConfig {
     public static final String VxAppId = "wx4788ea4739c16b26";
     public static final String VxAppSecret = "f76f3db8a9e22833146026bd5c34e442";
-    public static final String WeatherKey = "高德地图key";
+    public static final String WeatherKey = "3d155ccb6d336db734e4e06607c29b0d";
     public static final String WeatherKey_HeFeng = "和风天气KEY";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
@@ -77,27 +77,27 @@ public class AllConfig {
         //  注意：每个用户信息的最后一项不需要加逗号！！！
         //new BirthDay()里面代表[年]、[月]、[日]、[是否是农历(true为农历、false为公历)]、[是否统计天数(true为统计，false为倒计时)]、[倒计时到0天提示信息(如果类型为统计可以不填)]
         userList.add(getUser(
-                "这个人的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
+                "oDuFg5-YYn6oUpwie3Qt_k_h8MXE"
+                "Ks87C-NPRpDP7Ej0n4StGn_HM2fsXXADotZX3sSdz_k", //要给这个人发送的模板ID
+                "欣欣", //咋称呼这个人
+                "吉林省吉林市铁东区", //这个人的详细地址
+                "吉林", //这个人在的城市
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                new BirthDay(2020,10,19,true,false,"周年快乐！！！")
         ));
 
         userList.add(getUser(
-                "这个人扫码后的微信号",//扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID",//要给这个人发送的模板ID
-                "这个人的称呼",//咋称呼这个人
-                "江苏省南京市玄武区",//这个人的详细地址
-                "南京",//这个人在的城市
+                "oDuFg5_GAd-qeYET7kg_Ab6Dudlc",//扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "CEUTpqkLvpEbka7KMmk0PrE9jMYJIJ48LllniH00PyQ",//要给这个人发送的模板ID
+                "自己",//咋称呼这个人
+                "内蒙古自治区包头市昆都仑区",//这个人的详细地址
+                "包头",//这个人在的城市
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                new BirthDay(2020,6,1,true,false,"周年快乐！！！")
         ));
 
 
